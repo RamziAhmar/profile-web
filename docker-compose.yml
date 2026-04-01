@@ -1,0 +1,7 @@
+services:
+  web-profile:
+    build: .
+    container_name: web-ahmar-baru
+    ports:
+      - "8080:80"
+    restart: always
